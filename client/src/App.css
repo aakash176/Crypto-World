@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+  color: gold;
+}
+
+.app{
+  background-color: #14161a;
+  min-height: 100vh;
+  color: white;
+}
+
+.typography__header{
+  flex:1;
+  color: gold;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+
+.banner{
+  background-image: url(../public/banner2.jpg);
+ 
+
+}
+
+.banner .banner__container{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  justify-content: space-around;
+}
+
+.banner .banner__container .banner__header{
+  text-align: center;
+  height: 40%;
+}
+
+.carousel__main{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carausel__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  color: white;
+}
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.table__heading{
+  font-family: Montserrat;
+  
+}
+
+.timeBtn:hover{
+  background-color: gold;
+  color: black;
+  transition: 0.6;
+}
